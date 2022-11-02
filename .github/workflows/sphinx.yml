@@ -19,6 +19,7 @@ jobs:
       env:
         OA_TOKEN: ${{ secrets.OA_TOKEN }}
         GIT_PYTHON_GIT_EXECUTABLE: /usr/bin/git
+        GIT_PYTHON_REFRESH: quiet
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
