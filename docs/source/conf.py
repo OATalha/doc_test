@@ -35,7 +35,7 @@ extensions = [
     'sphinx.ext.napoleon',
 ]
 
-repoget_clonedir = os.path.expandvars('$HOME/repoget_repos')
+repoget_clonedir = os.path.abspath('../_repos/')
 repoget_cleanup_clonedir = True
 
 autoapi_dirs = list(filter(
