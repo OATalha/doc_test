@@ -1,20 +1,20 @@
 # repo to clone from the internet
 owners:
 
-- name: oneanimation-rnd
-  type: organization
-  token: ${OA_TOKEN}
-  repos:
-    name:
-    - oa[._]*
-    - bd[._-]*
-    - rdr.*
-
-# - name: OATalha
-#   type: user
+# - name: oneanimation-rnd
+#   type: organization
+#   token: ${OA_TOKEN}
 #   repos:
 #     name:
-#     - mymath.*
+#     - oa[._]*
+#     - bd[._-]*
+#     - rdr.*
+
+- name: OATalha
+  type: user
+  repos:
+    name:
+    - mymath.*
 
 # Per repo conf
 repo_conf:
