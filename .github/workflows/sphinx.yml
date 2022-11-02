@@ -13,6 +13,7 @@ jobs:
       uses: ammaraskar/sphinx-action@master
       env:
         OA_TOKEN: ${{ secrets.OA_TOKEN }}
+        GIT_PYTHON_GIT_EXECUTABLE: /usr/bin/git
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
