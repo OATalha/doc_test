@@ -1,14 +1,14 @@
 # repo to clone from the internet
 owners:
 
-# - name: oneanimation-rnd
-#   type: organization
-#   token: ${OA_TOKEN}
-#   repos:
-#     name:
-#     - oa[._]*
-#     - bd[._-]*
-#     - rdr.*
+- name: oneanimation-rnd
+  type: organization
+  token: ${OA_TOKEN}
+  repos:
+    name:
+    - oa[._]*
+    - bd[._-]*
+    - rdr.*
 
 - name: OATalha
   type: user
