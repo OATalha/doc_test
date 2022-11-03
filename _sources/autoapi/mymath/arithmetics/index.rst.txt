@@ -1,0 +1,122 @@
+ :py:mod:`mymath.arithmetics`
+==========================================================
+
+.. py:module:: mymath.arithmetics
+
+.. autoapi-nested-parse::
+
+   mymath.arithmetics contains the arithmetics classes and functions for our
+   beloved :py:mod:`mymath` namespace
+
+   .. note ::
+       Never underestimate the complexity of arithmetics
+
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   addsub/index.rst
+   mod/index.rst
+   multdiv/index.rst
+   power/index.rst
+
+
+Package Contents
+----------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   mymath.arithmetics.AddSub
+   mymath.arithmetics.MultDivide
+
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   mymath.arithmetics.mod
+   mymath.arithmetics.power
+
+
+
+.. py:class:: AddSub
+
+   Collection of subtraction and addition operations
+
+   This is the __init__ function
+
+   .. py:method:: add(x, y)
+      :staticmethod:
+
+      This module adds two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: sum of two numbers
+
+
+   .. py:method:: subtract(x, y)
+      :staticmethod:
+
+      This module subtracts two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: difference between the two numbers
+
+
+
+.. py:class:: MultDivide
+
+   Collection of multiply and divide operations
+
+   .. py:method:: multiply(x, y)
+      :staticmethod:
+
+      This module multiplies two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: product of two numbers
+
+
+   .. py:method:: divide(x, y)
+      :staticmethod:
+
+      This module divides two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: product of two numbers
+
+
+
+.. py:function:: mod(x: int, y: int)
+
+   Returns mod of the two numbers
+
+
+.. py:function:: power(x: int, y: int)
+
+

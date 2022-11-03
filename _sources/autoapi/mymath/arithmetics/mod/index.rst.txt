@@ -1,0 +1,34 @@
+ :py:mod:`mymath.arithmetics.mod`
+==================================================================
+
+.. py:module:: mymath.arithmetics.mod
+
+.. autoapi-nested-parse::
+
+   This module implements some simple math functions
+
+   add
+   subtract
+   multiply
+   divide
+
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   mymath.arithmetics.mod.mod
+
+
+
+.. py:function:: mod(x: int, y: int)
+
+   Returns mod of the two numbers
+
+

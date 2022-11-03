@@ -1,0 +1,57 @@
+ :py:mod:`mymath.arithmetics.addsub`
+========================================================================
+
+.. py:module:: mymath.arithmetics.addsub
+
+.. autoapi-nested-parse::
+
+   Contains the class AddSub
+
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   mymath.arithmetics.addsub.AddSub
+
+
+
+
+.. py:class:: AddSub
+
+   Collection of subtraction and addition operations
+
+   This is the __init__ function
+
+   .. py:method:: add(x, y)
+      :staticmethod:
+
+      This module adds two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: sum of two numbers
+
+
+   .. py:method:: subtract(x, y)
+      :staticmethod:
+
+      This module subtracts two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: difference between the two numbers
+
+
+

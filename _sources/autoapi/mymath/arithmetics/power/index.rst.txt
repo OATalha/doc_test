@@ -1,0 +1,22 @@
+ :py:mod:`mymath.arithmetics.power`
+======================================================================
+
+.. py:module:: mymath.arithmetics.power
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   mymath.arithmetics.power.power
+
+
+
+.. py:function:: power(x: int, y: int)
+
+

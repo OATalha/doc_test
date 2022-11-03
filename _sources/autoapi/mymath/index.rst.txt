@@ -1,0 +1,23 @@
+ :py:mod:`mymath`
+==================================
+
+.. py:module:: mymath
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   arithmetics/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __path__
+   
+
+   
+

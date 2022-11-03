@@ -1,0 +1,55 @@
+ :py:mod:`mymath.arithmetics.multdiv`
+==========================================================================
+
+.. py:module:: mymath.arithmetics.multdiv
+
+.. autoapi-nested-parse::
+
+   Contains the class MultDivide
+
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   mymath.arithmetics.multdiv.MultDivide
+
+
+
+
+.. py:class:: MultDivide
+
+   Collection of multiply and divide operations
+
+   .. py:method:: multiply(x, y)
+      :staticmethod:
+
+      This module multiplies two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: product of two numbers
+
+
+   .. py:method:: divide(x, y)
+      :staticmethod:
+
+      This module divides two numbers
+
+      :param x: first number
+      :type x: int
+      :param y: second number
+      :type y: int
+
+      :return: product of two numbers
+
+
+
