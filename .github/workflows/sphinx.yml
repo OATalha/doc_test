@@ -10,7 +10,7 @@ jobs:
       with:
         ref: sphinx
     - name: Build HTML
-      uses: ammaraskar/sphinx-action@master
+      uses: OATalha/sphinx-action@master
       with:
         pre-build-command: apt-get update -y && apt-get install -y git
       env:
