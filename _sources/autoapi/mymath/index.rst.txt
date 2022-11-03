@@ -11,6 +11,7 @@ Subpackages
    :maxdepth: 3
 
    arithmetics/index.rst
+   trigonometry/index.rst
 
 
 Package Contents

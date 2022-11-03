@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> mymath.arithmetics.power &mdash; One Animation Pipeline Docs# 0.0.1 documentation</title>
+  <title> mymath.trigonometry.dist &mdash; One Animation Pipeline Docs# 0.0.1 documentation</title>
       <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/graphviz.css" type="text/css" />
@@ -22,8 +22,8 @@
     <link rel="author" title="About these documents" href="../../../../about.html" />
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title=" mymath.trigonometry" href="../../trigonometry/index.html" />
-    <link rel="prev" title=" mymath.arithmetics.multdiv" href="../multdiv/index.html" /> 
+    <link rel="next" title="Glossary" href="../../../../glossary.html" />
+    <link rel="prev" title=" mymath.trigonometry.cst" href="../cst/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -50,8 +50,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../../../api.html">API DOCS</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../../index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath</span></code></a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../../index.html#subpackages">Subpackages</a><ul class="current">
-<li class="toctree-l4 current"><a class="reference internal" href="../index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.arithmetics</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../trigonometry/index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.trigonometry</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../arithmetics/index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.arithmetics</span></code></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.trigonometry</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../index.html#package-contents">Package Contents</a></li>
@@ -80,10 +80,10 @@
       <li><a href="../../../../index.html" class="icon icon-home"></a></li>
           <li class="breadcrumb-item"><a href="../../../../api.html">API DOCS</a></li>
           <li class="breadcrumb-item"><a href="../../index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath</span></code></a></li>
-          <li class="breadcrumb-item"><a href="../index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.arithmetics</span></code></a></li>
-      <li class="breadcrumb-item active"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.arithmetics.power</span></code></li>
+          <li class="breadcrumb-item"><a href="../index.html"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.trigonometry</span></code></a></li>
+      <li class="breadcrumb-item active"> <code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.trigonometry.dist</span></code></li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../../../_sources/autoapi/mymath/arithmetics/power/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../../_sources/autoapi/mymath/trigonometry/dist/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -91,8 +91,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="module-mymath.arithmetics.power">
-<span id="mymath-arithmetics-power"></span><h1> <a class="reference internal" href="#module-mymath.arithmetics.power" title="mymath.arithmetics.power"><code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.arithmetics.power</span></code></a><a class="headerlink" href="#module-mymath.arithmetics.power" title="Permalink to this heading"></a></h1>
+  <section id="module-mymath.trigonometry.dist">
+<span id="mymath-trigonometry-dist"></span><h1> <a class="reference internal" href="#module-mymath.trigonometry.dist" title="mymath.trigonometry.dist"><code class="xref py py-mod docutils literal notranslate"><span class="pre">mymath.trigonometry.dist</span></code></a><a class="headerlink" href="#module-mymath.trigonometry.dist" title="Permalink to this heading"></a></h1>
+<p>Contains two functions hypot and distance</p>
 <section id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this heading"></a></h2>
 <section id="functions">
@@ -103,20 +104,50 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#mymath.arithmetics.power.power" title="mymath.arithmetics.power.power"><code class="xref py py-obj docutils literal notranslate"><span class="pre">power</span></code></a>(x, y)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#mymath.trigonometry.dist.hypotenuse" title="mymath.trigonometry.dist.hypotenuse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">hypotenuse</span></code></a>(a, b)</p></td>
+<td><p>Returns hypotenuse of a right angled triangle given the length of its side</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#mymath.trigonometry.dist.distance" title="mymath.trigonometry.dist.distance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">distance</span></code></a>(p, q)</p></td>
+<td><p>Determine the euclidean distance between two 2d points p and q</p></td>
 </tr>
 </tbody>
 </table>
 <dl class="py function">
-<dt class="sig sig-object py" id="mymath.arithmetics.power.power">
-<span class="sig-prename descclassname"><span class="pre">mymath.arithmetics.power.</span></span><span class="sig-name descname"><span class="pre">power</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mymath.arithmetics.power.power" title="Permalink to this definition"></a></dt>
-<dd><dl class="field-list simple">
+<dt class="sig sig-object py" id="mymath.trigonometry.dist.hypotenuse">
+<span class="sig-prename descclassname"><span class="pre">mymath.trigonometry.dist.</span></span><span class="sig-name descname"><span class="pre">hypotenuse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mymath.trigonometry.dist.hypotenuse" title="Permalink to this definition"></a></dt>
+<dd><p>Returns hypotenuse of a right angled triangle given the length of its side</p>
+<dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>x</strong> (<em>int</em>) – </p></li>
-<li><p><strong>y</strong> (<em>int</em>) – </p></li>
+<li><p><strong>a</strong> (<em>float</em>) – length of the first side</p></li>
+<li><p><strong>b</strong> (<em>float</em>) – length of the second side</p></li>
 </ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>length of the hypotenuse</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mymath.trigonometry.dist.distance">
+<span class="sig-prename descclassname"><span class="pre">mymath.trigonometry.dist.</span></span><span class="sig-name descname"><span class="pre">distance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mymath.trigonometry.dist.distance" title="Permalink to this definition"></a></dt>
+<dd><p>Determine the euclidean distance between two 2d points p and q</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>p</strong> (<em>tuple</em>) – x, y values of first point</p></li>
+<li><p><strong>q</strong> (<em>tuple</em>) – x, y values of first point</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>distance between the two points</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
 </dd>
 </dl>
 </dd></dl>
@@ -129,8 +160,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../multdiv/index.html" class="btn btn-neutral float-left" title=" mymath.arithmetics.multdiv" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../../trigonometry/index.html" class="btn btn-neutral float-right" title=" mymath.trigonometry" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../cst/index.html" class="btn btn-neutral float-left" title=" mymath.trigonometry.cst" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../../../glossary.html" class="btn btn-neutral float-right" title="Glossary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

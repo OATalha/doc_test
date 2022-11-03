@@ -1,0 +1,71 @@
+ :py:mod:`mymath.trigonometry.cst`
+====================================================================
+
+.. py:module:: mymath.trigonometry.cst
+
+.. autoapi-nested-parse::
+
+   Some basic trigonometric functions
+
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   mymath.trigonometry.cst.sine
+   mymath.trigonometry.cst.cosine
+   mymath.trigonometry.cst.inverse_sine
+   mymath.trigonometry.cst.inverse_cosine
+
+
+
+.. py:function:: sine(x)
+
+   Determine sine of x
+
+   :param x: input parameter x in radians
+   :type x: float
+
+   :returns: sine value of x
+   :rtype: float
+
+
+.. py:function:: cosine(x)
+
+   Determine cosine of x
+
+   :param x: input parameter x in radians
+   :type x: float
+
+   :returns: cosine value of x
+   :rtype: float
+
+
+.. py:function:: inverse_sine(x)
+
+   Determine the inverse sine of given Value
+
+   :param x: sine value for which angle is to be found
+   :type x: float
+
+   :returns: angle in radians
+   :rtype: float
+
+
+.. py:function:: inverse_cosine(x)
+
+   Determine the inverse cosine of given Value
+
+   :param x: cosine value for which angle is to be found
+   :type x: float
+
+   :returns: angle in radians
+   :rtype: float
+
+
